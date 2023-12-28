@@ -1,0 +1,3 @@
+[submodule "jnetruntime-api"]
+	path = jnetruntime-api
+	url = https://github.com/slytechs-repos/jnetruntime-api.git
