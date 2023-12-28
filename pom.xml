@@ -13,6 +13,7 @@
 	</modules>
 
 	<properties>
+		<parent.project>${project.artifactId}</parent.project>
 		<jdk.version>21</jdk.version>
 		<project.build.sourceEncoding>${java.encoding}</project.build.sourceEncoding>
 		<maven.compiler.source>${jdk.version}</maven.compiler.source>
@@ -128,19 +129,19 @@
 	</organization>
 	<issueManagement>
 		<system>Github Issue Tracking</system>
-		<url>https://github.com/slytechs-repos/jnetruntime-sdk/issues</url>
+		<url>https://github.com/slytechs-repos/${parent.project}/issues</url>
 	</issueManagement>
 	<scm>
-		<connection>scm:git:git://github.com/slytechs-repos/jnetruntime-sdk.git</connection>
+		<connection>scm:git:git://github.com/slytechs-repos/${parent.project}.git</connection>
 		<developerConnection>
-			scm:git:ssh:git://github.com/slytechs-repos/jnetruntime-sdk.git</developerConnection>
-		<url>https://github.com/slytechs-repos/jnetruntime-sdk</url>
+			scm:git:ssh:git://github.com/slytechs-repos/${parent.project}.git</developerConnection>
+		<url>https://github.com/slytechs-repos/${parent.project}</url>
 	</scm>
 	<distributionManagement>
 		<!-- mvn clean site site:stage scm-publish:publish-scm -->
 		<site>
 			<id>github</id>
-			<url>scm:git:git@github.com:slytechs-repos/jnetruntime-sdk.git</url>
+			<url>scm:git:git@github.com:slytechs-repos/${parent.project}.git</url>
 		</site>
 	</distributionManagement>
 
