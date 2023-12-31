@@ -10,10 +10,14 @@
 	<description>Runtime and utilities required by all other modules</description>
 	<modules>
 		<module>jnetruntime-api</module>
+		<module>jnetruntime-systable</module>
 	</modules>
 
 	<properties>
 		<parent.project>${project.artifactId}</parent.project>
+		<jnetruntime-sdk.version>0.0.1-SNAPSHOT</jnetruntime-sdk.version>
+		<protocol-sdk.version>0.0.1-SNAPSHOT</protocol-sdk.version>
+
 		<jdk.version>21</jdk.version>
 		<project.build.sourceEncoding>${java.encoding}</project.build.sourceEncoding>
 		<maven.compiler.source>${jdk.version}</maven.compiler.source>
@@ -132,7 +136,8 @@
 		<url>https://github.com/slytechs-repos/${parent.project}/issues</url>
 	</issueManagement>
 	<scm>
-		<connection>scm:git:git://github.com/slytechs-repos/${parent.project}.git</connection>
+		<connection>
+			scm:git:git://github.com/slytechs-repos/${parent.project}.git</connection>
 		<developerConnection>
 			scm:git:ssh:git://github.com/slytechs-repos/${parent.project}.git</developerConnection>
 		<url>https://github.com/slytechs-repos/${parent.project}</url>
