@@ -7,7 +7,8 @@
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>jNetRuntime SDK - Parent POM</name>
-	<description>Network utilities and runtime related classes required by all other jNet modules</description>
+	<description>Network utilities and runtime related classes required by all
+		other jNet modules</description>
 	<modules>
 		<module>jnetruntime-api</module>
 		<module>jnetruntime-systable</module>
@@ -148,6 +149,15 @@
 			<id>github</id>
 			<url>scm:git:git@github.com:slytechs-repos/${parent.project}.git</url>
 		</site>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>
+				https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
 	</distributionManagement>
 
 </project>
