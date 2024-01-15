@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.slytechs.jnet.jnetruntime</groupId>
 	<artifactId>jnetruntime-sdk-parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>jNetRuntime SDK - Parent POM</name>
-	<description>Runtime and utilities required by all other modules</description>
+	<description>Network utilities and runtime related classes required by all other jNet modules</description>
 	<modules>
 		<module>jnetruntime-api</module>
 		<module>jnetruntime-systable</module>
@@ -15,7 +15,7 @@
 
 	<properties>
 		<parent.project>${project.artifactId}</parent.project>
-		<jnetruntime-sdk.version>0.0.1-SNAPSHOT</jnetruntime-sdk.version>
+		<jnetruntime-sdk.version>0.1.0-SNAPSHOT</jnetruntime-sdk.version>
 		<protocol-sdk.version>0.0.1-SNAPSHOT</protocol-sdk.version>
 
 		<jdk.version>21</jdk.version>
