@@ -4,4 +4,3 @@
 [submodule "jnetruntime-systable"]
 	path = jnetruntime-systable
 	url = https://github.com/slytechs-repos/jnetruntime-systable.git
-	
