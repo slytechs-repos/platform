@@ -1,6 +1,0 @@
-[submodule "platform-api"]
-path = platform-api
-url = https://github.com/slytechs-repos/platform-api.git
-[submodule "platform-systables"]
-path = platform-systables
-url = https://github.com/slytechs-repos/platform-systables.git
