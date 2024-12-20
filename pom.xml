@@ -3,12 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.slytechs.jnet.jnetruntime</groupId>
-	<artifactId>jnetruntime-sdk-parent</artifactId>
+	<groupId>com.slytechs.jnet.platform</groupId>
+	<artifactId>platform-sdk-parent</artifactId>
 	<packaging>pom</packaging>
-	<name>jNetRuntime SDK - Parent POM</name>
-	<description>Network utilities and runtime related classes required by all
-		other jNet modules</description>
+	<name>jNet Platform SDK - Parent POM</name>
+	<description>Core runtime and support functionality used by all SDKs</description>
 
 	<parent>
 		<groupId>com.slytechs.jnet</groupId>
@@ -18,8 +17,7 @@
 	</parent>
 
 	<modules>
-		<module>jnetruntime-api</module>
-		<module>jnetruntime-systable</module>
+		<module>../jnetruntime-api</module>
+		<module>../jnetruntime-systable</module>
 	</modules>
-
 </project>
