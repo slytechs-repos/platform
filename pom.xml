@@ -3,21 +3,23 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.slytechs.jnet.platform</groupId>
-	<artifactId>platform-sdk-parent</artifactId>
-	<packaging>pom</packaging>
-	<name>jNet Platform SDK - Parent POM</name>
-	<description>Core runtime and support functionality used by all SDKs</description>
-
+	<!-- jNet SDK - Master POM definition -->
 	<parent>
 		<groupId>com.slytechs.jnet</groupId>
 		<artifactId>jnet-sdk-parent</artifactId>
 		<version>0.1.0-SNAPSHOT</version>
 		<relativePath>../jnet-sdk</relativePath>
 	</parent>
+	
+	<groupId>com.slytechs.jnet.platform</groupId>
+	<artifactId>platform-parent</artifactId>
+	<packaging>pom</packaging>
+	<name>jNet Platform - Parent POM</name>
+	<description>Core runtime and foundational support for all SDKs</description>
 
 	<modules>
-		<module>../jnetruntime-api</module>
-		<module>../jnetruntime-systable</module>
+		<module>../platform-api</module>
+		<module>../platform-systables</module>
+		<module>../platform-examples</module>
 	</modules>
 </project>
